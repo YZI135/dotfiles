@@ -1,0 +1,232 @@
+############################
+#### ОСНОВНЫЕ НАСТРОЙКИ ####
+############################
+
+!!Толщина нижний границы окна
+window.handle.width: 3
+!!Толщина рамки окна
+border.width: 0
+!!Цвет рамки окна
+border.color: #373737
+!!Отступы элементов заголовка окна по ширине и высоте
+padding.width: 5
+padding.height: 7
+!!Отступы содержимого окна по ширине и высоте
+window.client.padding.width: 0
+window.client.padding.height: 0
+!!Цвет содержимого окна
+window.*.client.color: #242424
+!!Выравнивание текста заголовка окна
+window.label.text.justify: center
+
+
+############################
+####         МЕНЮ       ####
+############################
+
+!!Цвет рамки меню
+menu.border.color: #373737
+!!Толщина рамки меню
+menu.border.width: 5
+!!Заливка заголовка меню один цвет
+menu.title.bg: flat 
+!!Цвет заголовка меню
+menu.title.bg.color: #373737
+!!Цвет рамки заголовка меню
+menu.title.bg.border.color: #373737
+!!Цвет текста заголовка меню
+menu.title.text.color: #ffffff
+!!Заливка элемента меню один цвет
+menu.items.bg: flat
+!!Цвет элемента меню
+menu.items.bg.color: #373737
+!!Цвет рамки элемента меню
+menu.items.bg.border.color: #373737
+!!Цвет текста элемента меню
+menu.items.text.color: #ffffff
+!!Заливка активного элемента меню один цвет
+menu.items.active.bg: flat
+!!Цвет активного элемента меню
+menu.items.active.bg.color: #ffffff
+!!Цвет рамки активного элемента меню
+menu.items.active.bg.border.color: #373737
+!!Цвет текста активного элемента меню
+menu.items.active.text.color: #373737
+!!Смещение подменю по оси X и Y
+menu.overlap.x: -2
+menu.overlap.y: -10
+
+
+############################
+####    АКТИВНОЕ ОКНО   ####
+############################
+
+!!Заливка заголовка окна один цвет
+window.active.title.bg: flat
+!!Цвет заголовка окна
+window.active.title.bg.color: #373737
+!!Цвет рамки заголовка окна
+window.active.title.bg.border.color: #373737
+!!Фон заголовка окна, наследуется от основного
+window.active.label.bg: parentrelative
+!!Цвет текста заголовка окна
+window.active.label.text.color: #ffffff
+!!Фон кнопок окна, наследуется от основного цвета окна
+window.active.button.*.bg: parentrelative
+!!Тип блоков handline которые находятся по краям
+window.*.grip.bg: flat
+!!Цвет блоков handline которые находятся по краям
+window.*.grip.bg.color: #373737
+!!Тип нижней полосы
+window.active.handle.bg: flat solid
+!!Цвет нижней полосы
+window.active.handle.bg.color: #373737
+
+
+############################
+####  НЕ АКТИВНОЕ ОКНО  ####
+############################
+
+!!Заливка заголовка окна один цвет
+window.inactive.title.bg: flat
+!!Цвет заголовка окна
+window.inactive.title.bg.color: #373737
+!!Цвет рамки заголовка окна
+window.inactive.title.bg.border.color: #373737
+!!Фон кнопок окна, наследуется от основного цвета окна
+window.inactive.label.bg: parentrelative
+!!Цвет текста заголовка окна
+window.inactive.label.text.color: #c9cacd
+!!Фон кнопок окна, наследуется от основного цвета окна
+window.inactive.button.*.bg: parentrelative
+!!Цвет кнопки неактивного окна при наведении
+window.inactive.button.*.image.color: #ffffff
+!!Цвет кнопки неактивного окна при нажатии
+window.inactive.button.pressed.bg.color: #ffffff
+!!Цвет отключенной кнопки неактивного окна
+window.inactive.button.disabled.image.color: #ffffff
+!!Тип блоков handline которые находятся по краям
+window.*.grip.bg: flat
+!!Цвет блоков handline которые находятся по краям
+window.*.grip.bg.color: #373737
+!!Тип нижней полосы
+window.inactive.handle.bg: flat solid
+!!Цвет нижней полосы
+window.inactive.handle.bg.color: #373737
+
+
+############################
+####    close button    ####
+############################
+
+!!Цвет кнопки когда не нажата
+window.active.button.close.unpressed.image.color: #E9524A
+!!Цвет кнопки когда не нажата в неактивном окне
+window.inactive.button.close.unpressed.image.color: #c9cacd
+!!Цвет кнопки при наведении
+window.active.button.close.hover.image.color: #E9524A
+!!Цвет кнопки при нажатии
+window.active.button.close.pressed.image.color: #E9524A
+!!Цвет отключенной кнопки
+window.active.button.close.disabled.image.color: #e7e8eb
+!!Цвет кнопки после нажатия
+window.active.button.close.toggled.unpressed.image.color: #E9524A
+!!Цвет кнопки после нажатия при наведении на нее курсора
+window.active.button.close.toggled.hover.image.color: #E9524A
+!!Цвет кнопки после нажатия при повторном нажатии
+window.active.button.close.toggled.pressed.image.color: #E9524A
+
+
+############################
+####   iconify button   ####
+############################
+
+!!Цвет кнопки когда не нажата
+window.active.button.iconify.unpressed.image.color:				#F1AE1B
+!!Цвет кнопки когда не нажата в неактивном окне
+window.inactive.button.iconify.unpressed.image.color:			#c9cacd
+!!Цвет кнопки при наведении
+window.active.button.iconify.hover.image.color:					#F1AE1B
+!!Цвет кнопки при нажатии
+window.active.button.iconify.pressed.image.color:				#F1AE1B
+!!Цвет отключенной кнопки
+window.active.button.iconify.disabled.image.color:				#e7e8eb
+!!Цвет кнопки после нажатия
+window.active.button.iconify.toggled.unpressed.image.color:		#F1AE1B
+!!Цвет кнопки после нажатия при наведении на нее курсора
+window.active.button.iconify.toggled.hover.image.color:			#F1AE1B
+!!Цвет кнопки после нажатия при повторном нажатии
+window.active.button.iconify.toggled.pressed.image.color:		#F1AE1B
+
+
+############################
+####     max button     ####
+############################
+
+!!Цвет кнопки когда не нажата
+window.active.button.max.unpressed.image.color: #59C837
+!!Цвет кнопки когда не нажата в неактивном окне
+window.inactive.button.max.unpressed.image.color: #c9cacd
+!!Цвет кнопки при наведении
+window.active.button.max.hover.image.color: #59C837
+!!Цвет кнопки при нажатии
+window.active.button.max.pressed.image.color: #59C837
+!!Цвет отключенной кнопки
+window.active.button.max.disabled.image.color: #e7e8eb
+!!Цвет кнопки после нажатия
+window.active.button.max.toggled.unpressed.image.color: #59C837
+!!Цвет кнопки после нажатия при наведении на нее курсора
+window.active.button.max.toggled.hover.image.color: #59C837
+!!Цвет кнопки после нажатия при повторном нажатии
+window.active.button.max.toggled.pressed.image.color: #59C837
+
+
+##############################
+#### OSD(диалоговые окна) ####
+##############################
+
+!!Кубики в диологовом окне (воркспейсы) которые не выбранны, тип и цвет
+osd.unhilight.bg: flat solid
+osd.unhilight.bg.color: #AAB2BD
+!!Кубики в диологовом окне (воркспейсы) которые выбранны, тип и цвет
+osd.hilight.bg: flat solid
+osd.hilight.bg.color: #5294E2
+!!Толцина и цвет рамки окна
+osd.border.width: 2
+osd.border.color: #373737
+!!Тип цвет заливки диалогового окна
+osd.bg: flat solid
+osd.bg.color: #373737
+!!Тип и цвет заливки фона текста
+osd.label.bg: flat solid
+osd.label.bg.color: #373737
+!!Цвет текста
+osd.label.text.color: #ffffff
+!!Тип, цвет и цвет рамки ненажатых кнопок в диалоговом окне
+osd.button.unpressed.bg: flat border
+osd.button.unpressed.bg.color: #373737
+osd.button.unpressed.*.border.color: #373737
+!!Тип, цвет и цвет рамки нажатых кнопок в диалоговом окне
+osd.button.pressed.bg: flat border
+osd.button.pressed.bg.color: #373737
+osd.button.pressed.*.border.color: #373737
+
+!!Тип, цвет и цвет рамки кнопок в фокусе
+osd.button.focused.bg: flat solid border
+osd.button.focused.bg.color: #5294E2
+osd.button.focused.*.border.color: #5294E2
+!!Цвет обводки кнопки в вокусе
+osd.button.focused.box.color: #5294E2
+
+
+!!Шрифты (настройка тени)
+!!window.active.label.text.font: shadow=y:shadowoffset=1:shadowtint=3
+!!window.inactive.label.text.font: shadow=y:shadowoffset=1:shadowtint=0
+!!menu.items.font:
+!!menu.title.text.font: shadow=y:shadowoffset=1:shadowtint=30
+
+!!Так можно сделать градиент, в данном случае для активного элемента меню.
+!!Можно вместо "menu.items.active" подставить например "window.active.title"
+!!		menu.items.active.bg: Flat Gradient Vertical
+!!		menu.items.active.bg.color: #628cb2
+!!		menu.items.active.bg.colorTo: #50708d

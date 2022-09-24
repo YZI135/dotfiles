@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_menu>
+    <menu id="root-menu" label="OpenBox 3">
+        <menu id="1" label="Development">
+            <item label="CMake curses GUI (ccmake)"> <action name="Execute">
+                <execute>sakura -e ccmake</execute>
+            </action> </item>
+            <item label="CMake Qt4 GUI (cmake-gui)"> <action name="Execute">
+                <execute>cmake-gui</execute>
+            </action> </item>
+            <item label="Fluid"> <action name="Execute">
+                <execute>fluid</execute>
+            </action> </item>
+            <item label="IDLE (Python IDE)"> <action name="Execute">
+                <execute>idle</execute>
+            </action> </item>
+            <item label="Python"> <action name="Execute">
+                <execute>sakura -e python</execute>
+            </action> </item>
+            <item label="Qt4 Assistant"> <action name="Execute">
+                <execute>assistant</execute>
+            </action> </item>
+            <item label="Qt4 Designer"> <action name="Execute">
+                <execute>designer</execute>
+            </action> </item>
+            <item label="Qt4 Linguist"> <action name="Execute">
+                <execute>linguist</execute>
+            </action> </item>
+        </menu>
+        <menu id="2" label="Editors">
+            <item label="Nano"> <action name="Execute">
+                <execute>sakura -e nano</execute>
+            </action> </item>
+            <item label="Pluma"> <action name="Execute">
+                <execute>pluma</execute>
+            </action> </item>
+        </menu>
+        <menu id="18" label="Games">
+            <menu id="10" label="Arcade">
+                <item label="PacMan"> <action name="Execute">
+                    <execute>pacman</execute>
+                </action> </item>
+            </menu>
+            <item label="Heroic Games Launcher"> <action name="Execute">
+                <execute>heroic</execute>
+            </action> </item>
+        </menu>
+        <menu id="6" label="Graphics">
+            <item label="GNU Image Manipulation Program"> <action name="Execute">
+                <execute>gimp-2.10</execute>
+            </action> </item>
+            <item label="LibreOffice Draw"> <action name="Execute">
+                <execute>libreoffice --draw</execute>
+            </action> </item>
+            <item label="The GIMP"> <action name="Execute">
+                <execute>gimp</execute>
+            </action> </item>
+        </menu>
+        <menu id="7" label="Multimedia">
+            <item label="LMMS"> <action name="Execute">
+                <execute>lmms</execute>
+            </action> </item>
+            <item label="MellowPlayer"> <action name="Execute">
+                <execute>MellowPlayer</execute>
+            </action> </item>
+            <item label="mpv Media Player"> <action name="Execute">
+                <execute>mpv --player-operation-mode=pseudo-gui</execute>
+            </action> </item>
+            <item label="OpenShot Video Editor"> <action name="Execute">
+                <execute>openshot-qt</execute>
+            </action> </item>
+            <item label="pavucontrol"> <action name="Execute">
+                <execute>pavucontrol</execute>
+            </action> </item>
+            <item label="Spotify"> <action name="Execute">
+                <execute>spotify</execute>
+            </action> </item>
+        </menu>
+        <menu id="5" label="Network">
+            <item label="Discord"> <action name="Execute">
+                <execute>discord</execute>
+            </action> </item>
+            <item label="FileZilla"> <action name="Execute">
+                <execute>filezilla</execute>
+            </action> </item>
+            <item label="FireFox"> <action name="Execute">
+                <execute>firefox</execute>
+            </action> </item>
+            <item label="qutebrowser"> <action name="Execute">
+                <execute>qutebrowser</execute>
+            </action> </item>
+            <item label="Steam (Runtime)"> <action name="Execute">
+                <execute>steam-runtime</execute>
+            </action> </item>
+            <item label="Telegram Desktop"> <action name="Execute">
+                <execute>telegram-desktop</execute>
+            </action> </item>
+            <item label="Transmission"> <action name="Execute">
+                <execute>transmission-gtk</execute>
+            </action> </item>
+            <item label="Web Apps"> <action name="Execute">
+                <execute>webapp-manager</execute>
+            </action> </item>
+            <item label="Zoom"> <action name="Execute">
+                <execute>zoom</execute>
+            </action> </item>
+        </menu>
+        <menu id="3" label="Office">
+            <item label="Atril Document Viewer"> <action name="Execute">
+                <execute>atril</execute>
+            </action> </item>
+            <item label="LibreOffice Calc"> <action name="Execute">
+                <execute>libreoffice --calc</execute>
+            </action> </item>
+            <item label="LibreOffice Impress"> <action name="Execute">
+                <execute>libreoffice --impress</execute>
+            </action> </item>
+            <item label="LibreOffice Math"> <action name="Execute">
+                <execute>libreoffice --math</execute>
+            </action> </item>
+            <item label="LibreOffice Start Center"> <action name="Execute">
+                <execute>libreoffice</execute>
+            </action> </item>
+            <item label="LibreOffice Writer"> <action name="Execute">
+                <execute>libreoffice --writer</execute>
+            </action> </item>
+        </menu>
+        <menu id="19" label="Shells">
+            <item label="GIT"> <action name="Execute">
+                <execute>sakura -e git</execute>
+            </action> </item>
+            <item label="Sakura"> <action name="Execute">
+                <execute>sakura</execute>
+            </action> </item>
+        </menu>
+        <menu id="37" label="System">
+            <item label="htop"> <action name="Execute">
+                <execute>sakura -e htop</execute>
+            </action> </item>
+            <item label="LXAppearance"> <action name="Execute">
+                <execute>lxappearance</execute>
+            </action> </item>
+            <item label="nitrogen"> <action name="Execute">
+                <execute>nitrogen</execute>
+            </action> </item>
+            <item label="Openbox Configuration Manager"> <action name="Execute">
+                <execute>obconf</execute>
+            </action> </item>
+            <item label="pstree"> <action name="Execute">
+                <execute>sakura -e pstree.x11</execute>
+            </action> </item>
+            <item label="pstree"> <action name="Execute">
+                <execute>sakura -e pstree</execute>
+            </action> </item>
+            <item label="Top"> <action name="Execute">
+                <execute>sakura -e top</execute>
+            </action> </item>
+            <item label="Xkill"> <action name="Execute">
+                <execute>xkill</execute>
+            </action> </item>
+            <item label="Xrefresh"> <action name="Execute">
+                <execute>xrefresh</execute>
+            </action> </item>
+        </menu>
+        <menu id="38" label="Utilities">
+            <item label="balenaEtcher"> <action name="Execute">
+                <execute>/opt/balenaEtcher/balena-etcher-electron</execute>
+            </action> </item>
+            <item label="Console Matrix (Text)"> <action name="Execute">
+                <execute>sakura -e cmatrix</execute>
+            </action> </item>
+            <item label="Console Matrix (Virtual Console)"> <action name="Execute">
+                <execute>sakura -e cmatrix -l</execute>
+            </action> </item>
+            <item label="Console Matrix (X11)"> <action name="Execute">
+                <execute>cmatrix -x</execute>
+            </action> </item>
+            <item label="Disks"> <action name="Execute">
+                <execute>gnome-disks</execute>
+            </action> </item>
+            <item label="Engrampa Archive Manager"> <action name="Execute">
+                <execute>engrampa</execute>
+            </action> </item>
+            <item label="Info"> <action name="Execute">
+                <execute>sakura -e info</execute>
+            </action> </item>
+            <item label="Nemo"> <action name="Execute">
+                <execute>nemo</execute>
+            </action> </item>
+            <item label="Screenshot"> <action name="Execute">
+                <execute>xfce4-screenshooter</execute>
+            </action> </item>
+            <item label="Simplenote"> <action name="Execute">
+                <execute>simplenote</execute>
+            </action> </item>
+            <item label="Xev"> <action name="Execute">
+                <execute>sakura -e xev</execute>
+            </action> </item>
+            <item label="Xsetroot"> <action name="Execute">
+                <execute>xsetroot</execute>
+            </action> </item>
+        </menu>
+        <separator/>
+        <menu id="40" label="OpenBox">
+            <menu id="client-list-menu"/>
+            <item label="Reconfigure"> <action name="Reconfigure"/> </item>
+            <separator/>
+            <item label="Exit"> <action name="Exit"/> </item>
+        </menu>
+    </menu>
+</openbox_menu>
